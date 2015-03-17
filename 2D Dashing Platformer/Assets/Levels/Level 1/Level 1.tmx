@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="200" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="../../../Desktop/Game Development/Tiled Stuff/bricks.db32.tsx"/>
+ <tileset firstgid="232" name="grass" tilewidth="32" tileheight="32">
+  <tile id="0">
+   <image width="32" height="32" source="Textures/grass tile.png"/>
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="Textures/dirt block.png"/>
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="Textures/right top corner grass block.png"/>
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="Textures/right grass block.png"/>
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="Textures/small top right corner grass block.png"/>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="200" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2ctuwjAQRuEsetuVFnVV2vd/tN4eokFqVJQyEE9JnMB3pLMCOxPs33ZC0wAAAAAAAAAAAAAAAAAAAAAAAADAMrlpvatdBFJct65an2sXcsY8tK5rF4FRiPKTWROz6+i23W2Bc1ur5eMv0Zj2P5/bWA4lM+bZebJt91jg3OaifPxl35iu93y+1N+tq78k35k2u+1KnNO6c6n5OHReGJqPGmN5dYI+MvnOrgmZfMxpPl5qPg7dd0k+pv7t7k/QRybf2TUhk4857SFLyMcY79iWlI/uOXv1c83/Pvtk6s/eczYfc5mTS8jHGDVGfW6zeGy8au4fp3j26c/ZIVnLtNnXbml7yDnmY8h+E/V5aDy791g117nd+rL7SP8eh9xDps2+dkvbQzatr7WLOEJpjUO+3/9Od4Z5Sdidfab4n27Tu3Zm7DJ9ZK/bb1fiHOblG0f1o/Wp0No189d3jupnU56P2jWTUykfZOxXU37Gql0zOaUle4gzLy/Nkj2kdq1kDYfuIbXrJGsoH2SsfJCx8kHGygcZKx9krHyQsfJBxsoHGSsfZKx8kLHyQcbKBxkrH2SsfJCx8kHGyscy/QZ3w77E
+  </data>
+ </layer>
+</map>
