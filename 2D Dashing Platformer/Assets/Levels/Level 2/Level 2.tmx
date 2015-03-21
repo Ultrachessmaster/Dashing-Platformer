@@ -1,44 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="left-up" width="300" height="60" tilewidth="32" tileheight="32">
- <tileset firstgid="1" source="../../Textures/grass.tsx"/>
- <tileset firstgid="6" name="Magical Blocks" tilewidth="32" tileheight="32">
-  <tile id="0">
-   <image width="32" height="32" source="../../Textures/red block.png"/>
-   <objectgroup draworder="index">
-    <object x="0" y="0" width="32" height="32"/>
-   </objectgroup>
-  </tile>
- </tileset>
- <tileset firstgid="7" name="Special Objects" tilewidth="32" tileheight="32">
-  <tile id="0">
-   <image width="32" height="32" source="../../Textures/ladders.png"/>
-   <objectgroup draworder="index">
-    <object x="0" y="0" width="32" height="32"/>
-   </objectgroup>
-  </tile>
+ <tileset firstgid="1" name="textureatlas" tilewidth="32" tileheight="32">
+  <image source="../../Textures/textureatlas.png" width="1024" height="1024"/>
   <tile id="1">
-   <image width="32" height="32" source="../../Textures/Tomato Enemy/enemy1runningleft.png"/>
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
   </tile>
   <tile id="2">
-   <image width="32" height="32" source="../../Textures/Coin.png"/>
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="32">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="33">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="34">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="98">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="101">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="128">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="130">
+   <objectgroup draworder="index">
+    <object x="8" y="0" width="16" height="40"/>
+   </objectgroup>
   </tile>
  </tileset>
  <layer name="Tile Layer 1" width="300" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt29luJCEMBdCe9f8/OY/T00oHqrAxkHMkP6UELparKKo8HgAAAAAAAAAAAAAAAAAAZPi7cAE8WykX5BXwlVVzYdW+gDqr5sKqfQF1Vs2FVfsC6nyWC1f//p3xN3R5Bbz6LEfkFbCiyrz6amx5Bbya+f2A36+AEfIK2MXM79HlFRAtKyvejev/cYC7IrLiSgbJK+AuWQHsQl4Bu5BXwC7kFbALeQXsQl6dY9a3dVDlzlmO/O70+X5c/Zk79j95BXncjVjyCvK4G7HkFeTJuhvf9f7JK8jjbsSSV5DH3YglryCPuxFLXkEedyOWvII87kYseQV53I1Y8ord7HQmV+njFPJqTa113nkP7va+49msnv808motveu8417c7XnnM7ryfuxo57Owkh8b1q/N+9+hntc4U0YPd9+xNW9Pf++eqd7PU+rnhvX78U91L6fW8xpniuzh6pl+Hb81b09/756p3k9VV/Jq7hpniuxh9B1b8/b09+6Z6v1UdSWv5q5xpsgeRt+xNW9Pf++eqd5PVVfyau4aZ4rsYfQdW/P29Je9jtXnQo2ds+peTi151R5fXqmr56y6l1NLXrXHl1fq6jmr7uXUklft8eWVunrOqns5teRVe3x5pa6es+peTi151R5fXqmr56y6l1NLXrXH78mrP4/v/W23klez1zhTZA+j79iat6e/6n1T65W8mrvGmSJ7GH3H1rw9/VXvm1qv5NXcNc4U2cPoO7bm7emvet/UeiWv5q5xpsgeRt+xNW9Pf9X7ptYreTV3jTNF9jD6jq15e/qr3rfT6wNfxStP
+   eJzt2m1OE2EUhuECK1FXIiyFlfiHfSiyEJSFOUSaNHOY6dv5aM/0XFdyhxhtM57AY1B3OwAAAAAAAAAAAAAAAAAAAAAAgPN5/CQAAIAlffZ9x9QA1rTUztgrYG32CtgKewUs7abr/qMlje3Mywk/dw17dfsRbMV+Ex52/zfi+2UfZ3WPBx+P/V360K89/Lkt+9L19dIPAWfi38m27X2vvl36IeBM7NW22SsqsVfbZq+o5BJ7NfT/NW3n6ewV16S/Acd+fA6V9+ql93Eue0VWP7t+dT13/W58jb1ax5S9ue11t8Bz2Cuyeu360/W3663xNRn3aujrdSt7NXVv9v/3YN/UnXnqvecp79PfzLHfy1PD65baXa7D2OdJa3cLv9/c9l+vP2Y869yvkbWev+V1U18/9J6nvE//GVqfZeh1Y6+1Y/Mdu+eaXyNTjH2etHb452//z/hstT7r3O+Bst/hGlpijzV+z2z3H3ue1uxVlP0OUtXsVZT9DlLV7FWU/Q5S1exVlP0OUtXsVZT9DlLV7FWU/Q5S1exVlP0OUtXsVZT9DlLV7FWU/Q5S1exVlP0OUtXsVZT9DlLV7FWU/Q5S1exVlP0OUtXsVZT9DlLV7FWU/Q5S1exVlP0OUtXsVZT9DlLV7FWU/Q5S1exVlP0OUtXsVZT9DlLV7FWU/Q5S1exVlP0OUtXsVZT9DlLV7FWU/Q5S1exVlP0OUtXsVZT9DlLV7FWU/Q7SFvsHlI5Afw==
+  </data>
+ </layer>
+ <layer name="Enemies" width="300" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2EERAAAIw7D594FPZHA3EgV9NwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKDVXAcAAAAAUMdzAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCTBYFTAUs=
   </data>
  </layer>
  <layer name="Ladders" width="300" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1bENACAAwzA2/v+YF0AMKMK+oFM6BgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL+arwcAbNIroEKvgAq9Air0CqjQK6BCr4AKvQIq9Aqo0CugQq+ACr0CKvQKgBt+BKjQK6BCr4AKvQIq9Aqo0CugQq+ACr0CKvQKqNArAAAAAAAAgHMLm9AAog==
+   eJzt2TEKgDAQAMH81afk4/ZiIQomCzOQJtVVC8eNAQAAAAAAAAAAAADw3fHyAfxNe4AKvQIq9Aqo0CugQq+Aiuvdb978uQ8CO5qrBwB4SK+ACr0CKvQKqNArAABgR193FbsO8Be9Air0CqjQK6BCr4AKvQIq9Aqo0CsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVjgBrbAXow==
   </data>
  </layer>
- <layer name="Markers For Enemies" width="300" height="60">
+ <layer name="Coin" width="300" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt3b0KgCAUBlBHff8XbmgJKTWJ/u45EDq4KR+KF0sJAAAAAAAAAAAAAAAAAAAAAOIogx/A0+QV8AZ5YIy8AgAAAAAAgNjcCwJfsc2rkZoIAAAAAAAAAICWq95V2KtjuLq2IR/0AQAAAAAAAAAAgBi8FwdE9fX8q+u/1YP3+Y8iEbTW9cyaly33O5onmQVzStUCnNXaD9krrSKcs0bmujcmVy0AAAAAAAAAAAAAAAAAAAAAAADwXwttmAKM
+   eJzt21EKgCAQQEFv1K28Wffsu6CCNF2XGYj8tJAHFpYCAAAAAAAAAH3VlwsgCr0CVqFXAAAAPKk3YwAAAHLbb8YAAAAAAADEl/lsmLNvwCrq5Z7N38+V9b2R3zZ7ApyMaIleAa1GdUSvIP8+7W96RXY9vjvbE7br0Wq9gjX436dX8NXoNR2lVxHmAMQWpVcAb/QKWIVeAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDTAWVvGsM=
   </data>
  </layer>
- <objectgroup name="Object Layer 1">
-  <object gid="8" x="3440" y="1408"/>
- </objectgroup>
+ <layer name="Bacgorund" width="300" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1vBqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACANxlPAAE=
+  </data>
+ </layer>
 </map>
