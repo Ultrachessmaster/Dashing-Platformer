@@ -4,6 +4,7 @@ using System.Collections;
 public class EnemyAI : MonoBehaviour {
 
 	public float bounciness;
+	public float speed;
 
 	private Rigidbody2D rb2D;
 	private bool right;
@@ -20,42 +21,40 @@ public class EnemyAI : MonoBehaviour {
 			Vector2 newPosition = transform.position;
 			float x = newPosition.x;
 			if(!right) {
-				x--;
+				x -= speed;
 				right = false;
 			}
 			else {
-				x++;
+				x += speed;
 				right = true;
 			}
 			newPosition.x = x;
 			rb2D.MovePosition (newPosition);
 		}
-		Vector2 position = transform.position;
-		float y = transform.position.y;
-		y += 10.1f;
-		position.y = y;
-		RaycastHit2D rh = Physics2D.Raycast(position, Vector2.up, 1);
-		if(rh.collider != null) {
-			if (rh.collider.CompareTag("Player")) {
-				rh.collider.GetComponent<Rigidbody2D> ().AddForce (Vector2.up * bounciness);
-				gameObject.SetActive (false);
-				Debug.Log("Player Above " + gameObject);
-			}
-		}
 	}
 
 	void OnTriggerEnter2D (Collider2D col) {
-		if(right)
-			right = false;
-		else
-			right = true;
+		right = !right;
 	}
 
 	void OnCollisionEnter2D (Collision2D col) {
-		if(col.collider.CompareTag ("Player")) {
+		if(col.collider.CompareTag ("Player") &
+			GameObject.FindGameObjectWithTag ("Player").GetComponent <Rigidbody2D> ().velocity.y >= 0) {
+
+			Debug.Log ("Player falling" + 
+				GameObject.FindGameObjectWithTag ("Player").GetComponent <Rigidbody2D> ().velocity.y);
 			Application.LoadLevel (Application.loadedLevel);
+
+		}
+		else if (col.collider.CompareTag ("Player") & GameObject.FindGameObjectWithTag ("Player").GetComponent <Rigidbody2D> ().velocity.y < 0) {
+			gameObject.SetActive (false);
+			Vector2 playerVelocity = GameObject.FindGameObjectWithTag ("Player").GetComponent <Rigidbody2D> ().velocity;
+			playerVelocity.y = bounciness;
+			GameObject.FindGameObjectWithTag ("Player").GetComponent <Rigidbody2D> ().velocity = playerVelocity;
+
 		}
 	}
+
 
 	void OnBecameVisible() {
 		onscreen = true;

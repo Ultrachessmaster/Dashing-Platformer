@@ -2,12 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyAI.cs">
     <Files>
-      <File FileName="Assets/Textures/Sprite Shader.shader" Line="29" Column="29" />
-      <File FileName="Assets/Scripts/EnemyAI.cs" Line="38" Column="38" />
-      <File FileName="Assets/Scripts/PlatformerMovement.cs" Line="25" Column="25" />
-      <File FileName="Assets/Scripts/PlatformMovement.cs" Line="48" Column="48" />
-      <File FileName="Assets/Scripts/SmoothCamera2D.cs" Line="42" Column="42" />
-      <File FileName="Assets/Scripts/DragObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyAI.cs" Line="36" Column="36" />
+      <File FileName="Assets/Scripts/PlatformerMovement.cs" Line="21" Column="21" />
+      <File FileName="Assets/Scripts/Die.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

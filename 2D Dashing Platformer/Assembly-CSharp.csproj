@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\NextLevel.cs" />
      <Compile Include="Assets\Scripts\ActivateObj.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\CameraSize.cs" />
@@ -55,8 +54,11 @@
      <Compile Include="Assets\Scripts\DragObject.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\GetCoins.cs" />
+     <Compile Include="Assets\Scripts\Ladders.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\NextLevel.cs" />
      <Compile Include="Assets\Scripts\OrbLighting.cs" />
+     <Compile Include="Assets\Scripts\PixelPerfectC.cs" />
      <Compile Include="Assets\Scripts\PlatformMovement.cs" />
      <Compile Include="Assets\Scripts\PlatformerMovement.cs" />
      <Compile Include="Assets\Scripts\SmoothCamera2D.cs" />

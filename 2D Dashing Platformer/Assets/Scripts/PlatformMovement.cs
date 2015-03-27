@@ -7,7 +7,6 @@ public class PlatformMovement : MonoBehaviour {
 		public Transform StartPosistion;
 		public Transform Platform;
 		public float speed;
-		private bool opposite = false;
 		private Transform destination;
 		private Vector3 direction;
 
