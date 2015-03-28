@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class EnemyAI : MonoBehaviour {
@@ -53,6 +53,14 @@ public class EnemyAI : MonoBehaviour {
 			GameObject.FindGameObjectWithTag ("Player").GetComponent <Rigidbody2D> ().velocity = playerVelocity;
 
 		}
+	}
+
+	void LateUpdate () {
+		Vector2 newPosition = transform.position;
+		newPosition *= 100f;
+		newPosition = new Vector2 (Mathf.Round (newPosition.x), Mathf.Round (newPosition.y));
+		newPosition *= (1/100f);
+		transform.position = newPosition;
 	}
 
 
