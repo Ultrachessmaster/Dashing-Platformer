@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\CameraSize.cs" />
      <Compile Include="Assets\Scripts\Coin.cs" />
+     <Compile Include="Assets\Scripts\CoinHolderInstance.cs" />
      <Compile Include="Assets\Scripts\Die.cs" />
      <Compile Include="Assets\Scripts\DragObject.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
@@ -58,6 +59,7 @@
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\NextLevel.cs" />
      <Compile Include="Assets\Scripts\OrbLighting.cs" />
+     <Compile Include="Assets\Scripts\PixelPerfectAllignment.cs" />
      <Compile Include="Assets\Scripts\PixelPerfectC.cs" />
      <Compile Include="Assets\Scripts\PlatformMovement.cs" />
      <Compile Include="Assets\Scripts\PlatformerMovement.cs" />
@@ -73,6 +75,7 @@
      <None Include="Assets\Tiled2Unity\Imported\Level 2.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Tiled2Unity\Imported\Level 3.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\Level 1.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />

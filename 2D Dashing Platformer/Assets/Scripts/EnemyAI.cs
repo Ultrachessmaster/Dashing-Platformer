@@ -9,11 +9,12 @@ public class EnemyAI : MonoBehaviour {
 	private Rigidbody2D rb2D;
 	private bool right;
 	private bool onscreen = false;
-	private bool closetoedge = false;
+	private Vector2 position;
 
 	// Use this for initialization
 	void Start () {
 		rb2D = GetComponent<Rigidbody2D> ();
+		position = transform.position;
 	}
 
 	void Update () {
@@ -22,9 +23,12 @@ public class EnemyAI : MonoBehaviour {
 
 	void FixedUpdate () {
 		if(onscreen) {
-			Vector2 newPosition = transform.position;
-			newPosition.x += (right ? speed : -speed);
-			rb2D.MovePosition (newPosition);
+			position.x += (right ? speed : -speed);
+			Vector2 fixedPosition = position;
+			fixedPosition *= 50f;
+			fixedPosition = new Vector2 (Mathf.Round (fixedPosition.x), Mathf.Round (fixedPosition.y));
+			fixedPosition *= (1/50f);
+			rb2D.MovePosition (fixedPosition);
 		}
 		//Don't do Physics2D.Racast until slime is no longer near edge. Other wise it will never leave as it will be constantly switching back and forth.
 		if(!Physics2D.Raycast (new Vector2(transform.position.x + 0.16f, transform.position.y), -Vector2.up, 0.48f)) {

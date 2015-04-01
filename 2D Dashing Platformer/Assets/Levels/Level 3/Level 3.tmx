@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="300" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="textureatlas" tilewidth="32" tileheight="32">
+  <image source="../../Textures/Outdated Textures/textureatlas.png" width="1024" height="1024"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="5">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="32">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="33">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="34">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="128">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="130">
+   <objectgroup draworder="index">
+    <object x="8" y="0" width="16" height="32"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="300" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt22tOg0AUgFEfSfehrtzHRnwsTP5ZWyj3TgcGOuckExuQAVP40lZ6dwcAAAAArOV+GA8j47HlQQGMeBrG88h4aXlQACP0al2HiQHM06t16RWU06t16RWU06s+HY5+zo3T7aLror8TmaNkX7eoh7/xEr3q0+HkJ/vQ+/OlV7AfeqVXUZH3HNH3M1Ci9/NoC72aumd1a/ew6hUtHCYe92gLvZo6hq295tMdWtCrP3oVp1e0UKtXr8N4G8b7MD6uOqJ2brVXS7wf0ytaqNWrz2F8DeN7GD9XHVE7erXOPJAx1ajs+Rf5XLjmZ8fRz6JL96FX68wDGbV6Fbmual570Wu5dB+32qsI/8djSuvzQK9y889tO/e6L3PvgV7Bf3qVm39u27njyrRFr8jIPkd7eU4jjdKrfnvFPtXs1ZZaplfl8+sVS7n0HYDodwiy+6tpqcbpVfn8esVSluzV2LrWr6Gix6tX5fPrVV7mXIpcszU+X6sxV3SbaCv0anydXpXPr1d5ehVfplfn6/SqfH69ytOr+DK9Ol+nV+Xz61WeXsWX9darqWM4XqdX5fPrVZ5exZf11qvIuujj03Hp3u1fGE19Dg==
+  </data>
+ </layer>
+ <layer name="Enemies" width="300" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt3MENgCAMAED234M9XUCRRg223L3gQcKjlKYktAYAAAA19Js5AAAAAAAAVOEtDAAAclHDA7AD9x0AAAAAf7OiZ+XfAwDgS2qLmtSQALAXdz0wIkcAM7L2ErLsEyBqlN/kPlZ5Gntn69+K534xjq6Pnj3nEQAAAAAAyO4AOHARaA==
+  </data>
+ </layer>
+ <layer name="Ladders" width="300" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1LENACAMBLHszuKsQIEEOtkT5IvLDAAAAAAAAAAAAAAAALes1wcAHPKvoKnYdnET0Gy7uAlotl3cBDTbLm4Cmm0XNwEAAAAAAAAAAAAAAAAAAPCHDe/eBiU=
+  </data>
+ </layer>
+ <layer name="Springs" width="300" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMAiDTL/di6AEJSAAAAAAAAFhy7QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVQ+xZACH
+  </data>
+ </layer>
+ <layer name="Coins" width="300" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt3FkKhDAQBUBPm/sfYX5lYJKeELPYVSDigighzzai1/U+pbEMAAAAALMZowIAgHVq9XikVm/tE633PRfkoa0BAIgoX3OA3fzKpydyq9wmYDx9axx5BQAA/dTRdcaMgd3NHDN+QuZ/0WS6VuB8MguAGdxvyGbE93OcQ1vyVpnH94A9rcyhU98ty3LYQ8//U6LrWttax+nJhUgm/nv+wDr6JgAAAAAAAAAA1H0AaV4VHw==
+  </data>
+ </layer>
+</map>

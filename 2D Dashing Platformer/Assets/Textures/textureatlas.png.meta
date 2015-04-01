@@ -1,9 +1,100 @@
 fileFormatVersion: 2
-guid: 56f20a50345ca47549833b632fcce7a7
-timeCreated: 1427776317
+guid: 92a9f3a2f213646669c8dec4ab2bab4d
+timeCreated: 1427819013
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: textureatlas copy_0
+    21300002: textureatlas copy_1
+    21300004: textureatlas copy_2
+    21300006: textureatlas copy_3
+    21300008: textureatlas copy_4
+    21300010: textureatlas copy_5
+    21300012: textureatlas copy_6
+    21300014: textureatlas copy_7
+    21300016: textureatlas copy_8
+    21300018: textureatlas copy_9
+    21300020: textureatlas copy_10
+    21300022: textureatlas copy_11
+    21300024: textureatlas copy_12
+    21300026: textureatlas copy_13
+    21300028: textureatlas copy_14
+    21300030: textureatlas copy_15
+    21300032: textureatlas copy_16
+    21300034: textureatlas copy_17
+    21300036: textureatlas copy_18
+    21300038: textureatlas copy_19
+    21300040: textureatlas copy_20
+    21300042: textureatlas copy_21
+    21300044: textureatlas copy_22
+    21300046: textureatlas copy_23
+    21300048: textureatlas copy_24
+    21300050: textureatlas copy_25
+    21300052: textureatlas copy_26
+    21300054: textureatlas copy_27
+    21300056: textureatlas copy_28
+    21300058: textureatlas copy_29
+    21300060: textureatlas copy_30
+    21300062: textureatlas copy_31
+    21300064: textureatlas copy_32
+    21300066: textureatlas copy_33
+    21300068: textureatlas copy_34
+    21300070: textureatlas copy_35
+    21300072: textureatlas copy_36
+    21300074: textureatlas copy_37
+    21300076: textureatlas copy_38
+    21300078: textureatlas copy_39
+    21300080: textureatlas copy_40
+    21300082: textureatlas copy_41
+    21300084: textureatlas copy_42
+    21300086: textureatlas copy_43
+    21300088: textureatlas copy_44
+    21300090: textureatlas_0
+    21300092: textureatlas_1
+    21300094: textureatlas_2
+    21300096: textureatlas_3
+    21300098: textureatlas_4
+    21300100: textureatlas_5
+    21300102: textureatlas_6
+    21300104: textureatlas_7
+    21300106: textureatlas_8
+    21300108: textureatlas_9
+    21300110: textureatlas_10
+    21300112: textureatlas_11
+    21300114: textureatlas_12
+    21300116: textureatlas_13
+    21300118: textureatlas_14
+    21300120: textureatlas_15
+    21300122: textureatlas_16
+    21300124: textureatlas_17
+    21300126: textureatlas_18
+    21300128: textureatlas_19
+    21300130: textureatlas_20
+    21300132: textureatlas_21
+    21300134: textureatlas_22
+    21300136: textureatlas_23
+    21300138: textureatlas_24
+    21300140: textureatlas_25
+    21300142: textureatlas_26
+    21300144: textureatlas_27
+    21300146: textureatlas_28
+    21300148: textureatlas_29
+    21300150: textureatlas_30
+    21300152: textureatlas_31
+    21300154: textureatlas_32
+    21300156: textureatlas_33
+    21300158: textureatlas_34
+    21300160: textureatlas_35
+    21300162: textureatlas_36
+    21300164: textureatlas_37
+    21300166: textureatlas_38
+    21300168: textureatlas_39
+    21300170: textureatlas_40
+    21300172: textureatlas_41
+    21300174: textureatlas_42
+    21300176: textureatlas_43
+    21300178: textureatlas_44
+    21300180: textureatlas_45
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -37,18 +128,468 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 0
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   alphaIsTransparency: 1
   textureType: 5
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: textureatlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_25
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 327
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_26
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 325
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 316
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_28
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 324
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_30
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_32
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_35
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_36
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 347
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_39
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_41
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_43
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 352
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: textureatlas_44
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 342
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

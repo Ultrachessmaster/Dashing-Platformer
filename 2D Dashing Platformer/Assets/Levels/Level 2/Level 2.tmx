@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="left-up" width="300" height="60" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="textureatlas" tilewidth="32" tileheight="32">
-  <image source="../../Textures/textureatlas.png" width="1024" height="1024"/>
+  <image source="../../Textures/Outdated Textures/textureatlas.png" width="1024" height="1024"/>
   <tile id="1">
    <objectgroup draworder="index">
     <object x="0" y="0" width="32" height="32"/>
@@ -60,7 +60,7 @@
  </layer>
  <layer name="Tile Layer 1" width="300" height="60">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer name="Enemies" width="300" height="60">
@@ -70,12 +70,12 @@
  </layer>
  <layer name="Ladders" width="300" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt19EJgDAQBcH0Lli3LUSDxoWZCt7XcjcGAAAAAAAAAAAAAAAAAAAAAADAc8fuAQCT9Aqo0CugQq+ACr0CKvQKAAD4o9Vfxa8DfEWvgAq9Air0CqjQK6BCr4AKvQIq9Op95+4BAABwgxsfqNAroEKvgAq9Air0CqjQKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACYcwHVpA7b
+   eJzt17EJwDAQBEH17saVOhQWSF6YqeCj5W8MAAAAAAAAAAAAAAAAAAAAAACA757bBwAs0iugQq+ACr0CKvQKqNArAADgj3a3iq0DnKJXQIVeARV6BVToFVChV0CFXgEVegUAALz58YEKvQIq9Aqo0CugQq+ACr0CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgDUTgpQOVQ==
   </data>
  </layer>
  <layer name="Coin" width="300" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt3VsOgjAQQNHuyF2xFNfttyaUhj7ojOckRr+00uYqJEApAAAAAAAAADDWcfEA2IVeAVHoFQAAADXHyWsAAAAAAAAAAABgT5nPDXPuGxDF8fOczezvlXW7kd/r6QHwZUVL9ArotaojenWf4xB5ZN9Pm02v9qdXfUZsP/uE/Ua0Wq8gBr9begV3rV7Tu/RqhzHQpzaHd+Z39PsR3y69YoyW68TPuI586+dBD+soj5b7Wrj3BZFZr6W8nx7AAC3zePX/B2CFWb3J0HIAAAD+g+NxQBR6BUShV0AUegUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdR8AjS5x
+   eJzt3VkKwjAUQNHsyF11Ka7bbwXTkKl5j3NA9MsOCVdbaFsKAAAAAAAAAMx13bwATqFXQBR6BQAAQM315zMAAAAAAAAAAABwpszXhrn2DYji+nnPZvV2Zd1v5Pd6egX4sqMlegWM2tURvernPEQe2Y/TVtOr8+nVmBn7zzHhuBmt1iuIwe+WXkGv3XP6lF6dsA6MqY1hz/jO/j7iO6VXzNFyn/gV95FvXR6MMI/yaHmuhWdfEJn5Wso7wXJaxvHu/w/ADqt6s6vlAAAAMMr5OCAKvQKi0CsgCr0CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgLoPU50u9w==
   </data>
  </layer>
 </map>
